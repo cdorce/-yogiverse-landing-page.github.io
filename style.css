@@ -45,7 +45,12 @@ html, body {
     padding-left: .9em;
 }
 
-
+.flw-bkg  {
+    position: fixed;
+    right:9%;
+    bottom: 12%;
+    opacity: .3;
+}
 
 ul li img {
     width: 35px;
