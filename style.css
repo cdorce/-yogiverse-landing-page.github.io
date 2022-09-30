@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Orelega One', cursive; 
+}
+:root {
+    --white:#f1f1f1;
+    --light:#31ceda ; 
+    --light-drk:#1b666c;
+    --dark:#1b5c64;
+    --super-drk:#154d5c;
+}
