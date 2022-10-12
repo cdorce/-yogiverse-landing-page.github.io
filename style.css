@@ -50,6 +50,7 @@ html, body {
     right:9%;
     bottom: 12%;
     opacity: .3;
+    width: 40vh;
 }
 
 
@@ -58,6 +59,7 @@ html, body {
     right:25%;
     bottom: 20%;
     width: 90vh;
+    opacity: .2;
 }
 
 ul li img {
@@ -110,7 +112,7 @@ h3 {
 }
 
 .span2 {
-    font-size: 5em;
+    font-size: 15rem;
     color:var(--light-drk);
 }
 
@@ -143,12 +145,9 @@ p{
 
 /*MEDIA QUERY SECTION*/
 
-
-@media (max-width:400px) {
-    .content {
-        background-color: ;
-    }
-
+/*
+@media (max-width:100px) {
+    
 
     h3 {
         font-size: 3.5em;
@@ -171,7 +170,7 @@ p{
     .yogi-img {
         position: absolute;
         left:-12%;
-        width: 90vh;
+        width: 90px;
         opacity: .4;
     }
 
@@ -215,5 +214,10 @@ p{
     nav ul li {
         margin-bottom: 1em;
     }
+
+
+    .icon-list {
+
+    }
     
-}
+}*/
