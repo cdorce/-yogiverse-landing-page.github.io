@@ -1,12 +1,11 @@
-html, body {
-    height: 100%;
+* {
+
     margin: 0;
     padding: 0;
-    font-size: 62.5%;  
     box-sizing: border-box;
     /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Orelega One', cursive; 
-    
+   
 }
 :root {
     --white:#f8f5f5;
@@ -16,3 +15,13 @@ html, body {
     --super-drk:#154d5c;
 }
 
+
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
