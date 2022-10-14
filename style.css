@@ -90,7 +90,7 @@ nav .navigation a:hover{
 .content .info p{
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 .content .info .cta {
@@ -111,5 +111,15 @@ nav .navigation a:hover{
 }
 
 .icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
+}
+
+.icon-list a{
+   position: relative;
+   margin-right: 20px;
+   
 }
