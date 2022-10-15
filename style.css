@@ -133,3 +133,28 @@ nav .navigation a:hover{
 .icon-list a:hover{
     transform: scale(1.2);
 }
+
+label {
+    display: none;
+}
+
+#check {
+    z-index: 3;
+}
+
+@media (max-width:960px) {
+    nav .navigation {
+        display: none;
+    }
+
+    label {
+        display: block;
+        cursor: pointer;
+        transition: 0.3s;
+        transition-property: transform;
+
+    }
+    label:hover{
+        transform: scale(1.2);
+    }
+}
