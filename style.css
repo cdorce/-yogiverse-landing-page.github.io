@@ -140,6 +140,7 @@ label {
 
 #check {
     z-index: 3;
+    display: none;
 }
 
 @media (max-width:960px) {
@@ -151,10 +152,63 @@ label {
         display: block;
         cursor: pointer;
         transition: 0.3s;
-        transition-property: transform;
 
     }
-    label:hover{
-        transform: scale(1.2);
+    
+
+    label .close-btn {
+        display: none;
     }
+
+    #check:checked ~ nav .navigation {
+        z-index: 2;
+        position: fixed;
+        background: #d8fff2ec;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #check:checked ~ nav .navigation a{
+        font-weight: 800;
+        margin-right: 0;
+        margin-bottom: 50px;
+        letter-spacing: 2.5px;
+
+    }
+
+    #check:checked ~ nav label .menu-btn {
+        display: none;
+    }
+
+    #check:checked ~ nav label .close-btn {
+        z-index: 2;
+        display: block;
+        position: fixed;
+    }
+
+    label .menu-btn {
+        position: absolute;
+    }
+}
+
+@media(max-width:560px) {
+    .content .info h3 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .content .info p{
+        font-size: 18px;
+    }
+
+
+    .content .info  .span2 {
+        font-size: 40px;
+    }
+
 }
