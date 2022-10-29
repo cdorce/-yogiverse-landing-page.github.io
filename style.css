@@ -5,7 +5,14 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'Orelega One', cursive; */
+  
    
+}
+
+
+html {
+    font-size: 16px;
+
 }
 :root {
     --white:#f8f5f5;
@@ -33,7 +40,7 @@ nav {
     position: relative;
     top: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 2rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +48,7 @@ nav {
 
 nav .logo {
     position: relative;
-    width: 95px;
+    width: 5.5rem;
 }
 
 nav .navigation a {
@@ -50,12 +57,12 @@ nav .navigation a {
     background: var(--light-drk);
     font-weight: 500;
     letter-spacing: 1px;
-    padding: 5px 15px;
-    border-radius: 20px;
+    padding: .5rem 1rem;
+    border-radius: 1.2rem;
 }
 
 nav .navigation a:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 2rem;
 }
 
 nav .navigation a:hover{
@@ -66,41 +73,41 @@ nav .navigation a:hover{
 }
 
 .content {
-    max-width: 650px;
-    margin: 60px 100px;
+    max-width: 70rem;
+    margin: 5rem 3rem;
 }
 
 .content .info h3 {
     color: #1b5c64;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
-    line-height: 60px;
-    margin-bottom: 30px;
+    line-height: 4rem;
+    margin-bottom: 2rem;
 }
 
 
 .content .info h3 span{
     color: var(--light);
-    font-size: 55px;
+    font-size:2.8rem;
 
 }
 
 .content .info p{
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 3.4rem;
 }
 
 .content .info .cta {
     color: var(--light);
     text-decoration: none;
     background-color: #1b5c64;
-    padding: 10px 25px;
+    padding:.8rem 1.8rem;
     font-weight: 700;
     letter-spacing: 1.5px;
-    border-radius: 10px;
+    border-radius: .8rem;
     transition: 0.4s;
     transition-property: background;
 }
@@ -120,14 +127,14 @@ nav .navigation a:hover{
 
 .icon-list a{
    position: relative;
-   margin-right: 20px;
+   margin-right: 1.3rem;
    transition: 0.3s;
    transition-property:transform ;
    
 }
 
 .icon-list a:not(:last-child) {
-    margin-right: 60px;
+    margin-right: 4rem;
 }
 
 .icon-list a:hover{
@@ -177,7 +184,7 @@ label {
     #check:checked ~ nav .navigation a{
         font-weight: 800;
         margin-right: 0;
-        margin-bottom: 50px;
+        margin-bottom: 4rem;
         letter-spacing: 2.5px;
 
     }
@@ -197,18 +204,10 @@ label {
     }
 }
 
-@media(max-width:560px) {
-    .content .info h3 {
-        font-size: 25px;
-        line-height: 40px;
-    }
-    .content .info p{
-        font-size: 18px;
-    }
 
-
-    .content .info  .span2 {
-        font-size: 40px;
+@media (max-width:576px) {
+    body{
+        background-color: red;
     }
-
+    
 }
